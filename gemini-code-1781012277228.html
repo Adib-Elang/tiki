@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rangkuman PAT Informatika Kelas X</title>
+    <style>
+        :root {
+            --primary-color: #2b5797;
+            --secondary-color: #1e3a8a;
+            --accent-color: #f59e0b;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #334155;
+            --text-light: #64748b;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 40px 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba=0,0,0,0.1;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            letter-spacing: 0.5px;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .meta-info {
+            font-size: 0.9rem;
+            margin-top: 15px;
+            color: #e2e8f0;
+        }
+
+        .section-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-left: 5px solid var(--primary-color);
+        }
+
+        .section-card:nth-of-type(2) {
+            border-left-color: #10b981;
+        }
+
+        .section-card:nth-of-type(3) {
+            border-left-color: var(--accent-color);
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            margin-top: 0;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #475569;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            background-color: #e2e8f0;
+            color: #334155;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: #0f172a;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f1f5f9;
+            color: #1e293b;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        .highlight-box {
+            background-color: #fffbeb;
+            border: 1px solid #fef3c7;
+            border-left: 4px solid var(--accent-color);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: var(--text-light);
+            font-size: 0.9rem;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Rangkuman Penilaian Akhir Tahun (PAT)</h1>
+        <p>Mata Pelajaran: Informatika (Fase E / Kelas X)</p>
+        <div class="meta-info">
+            SMA Negeri 7 Yogyakarta &bull; Tahun Pelajaran 2025/2026<br>
+            Penyusun: Budi Luhur Sidik Pramono, S.Kom. [cite: 1, 2, 3]
+        </div>
+    </header>
+
+    <div class="section-card">
+        <h2>1. Jaringan Komputer dan Internet (JKI)</h2>
+        <div class="badge">Jumlah: 7 Soal (No. 1 - 7)</div> [cite: 4]
+        <p><strong>Capaian Pembelajaran:</strong> Peserta didik menjelaskan Topologi dan jenis jaringan rentang geografis. [cite: 4]</p>
+        
+        <h3>A. Jenis Jaringan Berdasarkan Rentang Geografis [cite: 4]</h3>
+        <ul>
+            <li><strong>PAN (Personal Area Network):</strong> Jaringan skala sangat kecil untuk perangkat pribadi. Contoh: Menghubungkan HP dengan <i>earphone</i> Bluetooth atau melakukan <i>tethering</i> hotspot.</li>
+            <li><strong>LAN (Local Area Network):</strong> Jaringan lokal yang mencakup area terbatas. Contoh: Komputer di dalam laboratorium sekolah, rumah, atau satu gedung.</li>
+            <li><strong>MAN (Metropolitan Area Network):</strong> Jaringan yang menghubungkan beberapa LAN dalam area satu kota atau daerah. Contoh: Jaringan antar-kampus atau instansi pemerintah daerah.</li>
+            <li><strong>WAN (Wide Area Network):</strong> Jaringan skala geografis sangat luas yang menghubungkan antar-kota, provinsi, bahkan negara. Contoh utama: Internet global.</li>
+        </ul>
+
+        <h3>B. Topologi Jaringan</h3>
+        <ul>
+            <li><strong>Topologi Bus:</strong> Semua komputer terhubung ke satu kabel utama tunggal. Jika kabel utama putus, seluruh jaringan akan lumpuh.</li>
+            <li><strong>Topologi Star (Bintang):</strong> Setiap komputer terhubung langsung ke satu perangkat pusat (Hub/Switch). Paling sering digunakan karena jika satu komputer rusak, yang lain tidak terganggu.</li>
+            <li><strong>Topologi Ring (Cincin):</strong> Kabel melingkar membentuk cincin, data mengalir satu arah dari satu perangkat ke perangkat berikutnya.</li>
+            <li><strong>Topologi Mesh (Jala):</strong> Setiap perangkat terhubung langsung ke seluruh perangkat lainnya. Sangat aman dan cepat, namun boros kabel.</li>
+            <li><strong>Topologi Tree (Pohon):</strong> Kombinasi hierarkis antara topologi star dan bus. Cocok untuk jaringan skala besar yang terstruktur.</li>
+        </ul>
+    </div>
+
+    <div class="section-card">
+        <h2>2. Dampak Informatika (DSI)</h2>
+        <div class="badge">Jumlah: 23 Soal (No. 8 - 30)</div> [cite: 4]
+        <p><strong>Capaian Pembelajaran:</strong> Dampak Teknologi berbagai bidang: hukum, ekonomi, sosial, budaya, dan sebagainya. [cite: 4]</p>
+        
+        <ul>
+            <li><strong>Bidang Hukum:</strong> Menyangkut regulasi digital seperti <strong>UU ITE</strong> untuk menjerat kejahatan siber (<i>cybercrime</i> seperti phishing, hacking, penipuan online) serta perlindungan <strong>Hak Kekayaan Intelektual (HKI)</strong> dari pembajakan produk digital.</li>
+            <li><strong>Bidang Ekonomi:</strong> Ditandai dengan perkembangan pesat <i>e-commerce</i>, digital marketing, dompet digital, serta pergeseran lapangan kerja di mana otomasi mengurangi kerja manual tapi melahirkan profesi baru (Data Analyst, dll).</li>
+            <li><strong>Bidang Sosial:</strong> Mengubah cara interaksi lewat media sosial. Memiliki dampak negatif seperti perundungan siber (<i>cyberbullying</i>), kecanduan gawai, fenomena FOMO, hingga kesenjangan digital (<i>digital divide</i>).</li>
+            <li><strong>Bidang Budaya:</strong> Mempercepat akulturasi budaya global karena kemudahan akses informasi, yang berisiko mengikis nilai budaya lokal jika tidak disaring secara bijak.</li>
+        </ul>
+    </div>
+
+    <div class="section-card">
+        <h2>3. Analisis Data (AD)</h2>
+        <div class="badge">Jumlah: 20 Soal (No. 31 - 50)</div> [cite: 4]
+        <p><strong>Capaian Pembelajaran:</strong> Mengumpulkan, mengolah dan menganalisis data menggunakan aplikasi spreadsheet dengan fungsi pustaka. [cite: 4]</p>
+        
+        <h3>Daftar Fungsi Pustaka Spreadsheet [cite: 4]</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Kategori</th>
+                    <th>Fungsi</th>
+                    <th>Kegunaan Utama</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><strong>Matematika</strong></td>
+                    <td><code>SUM</code></td>
+                    <td>Menjumlahkan seluruh total angka dalam suatu range data.</td>
+                </tr>
+                <tr>
+                    <td><code>PRODUCT</code></td>
+                    <td>Mengalikan seluruh angka dalam suatu range data.</td>
+                </tr>
+                <tr>
+                    <td><code>ROUND</code></td>
+                    <td>Membulatkan nilai angka desimal ke jumlah digit tertentu.</td>
+                </tr>
+                <tr>
+                    <td rowspan="5"><strong>Statistika</strong></td>
+                    <td><code>AVERAGE</code></td>
+                    <td>Menhitung nilai rata-rata dari sekelompok data.</td>
+                </tr>
+                <tr>
+                    <td><code>MAX</code></td>
+                    <td>Mencari nilai tertinggi dalam suatu kelompok data.</td>
+                </tr>
+                <tr>
+                    <td><code>MIN</code></td>
+                    <td>Mencari nilai terendah dalam suatu kelompok data.</td>
+                </tr>
+                <tr>
+                    <td><code>COUNT</code></td>
+                    <td>Menghitung banyaknya sel yang berisi data angka saja.</td>
+                </tr>
+                <tr>
+                    <td><code>COUNTA</code></td>
+                    <td>Menghitung banyaknya sel yang tidak kosong (angka maupun teks).</td>
+                </tr>
+                <tr>
+                    <td rowspan="5"><strong>Teks</strong></td>
+                    <td><code>LEFT</code></td>
+                    <td>Mengambil sejumlah karakter dari sisi paling kiri teks.</td>
+                </tr>
+                <tr>
+                    <td><code>RIGHT</code></td>
+                    <td>Mengambil sejumlah karakter dari sisi paling kanan teks.</td>
+                </tr>
+                <tr>
+                    <td><code>MID</code></td>
+                    <td>Mengambil sejumlah karakter dari posisi tengah teks.</td>
+                </tr>
+                <tr>
+                    <td><code>CONCATENATE</code></td>
+                    <td>Menggabungkan beberapa string teks atau isi sel menjadi satu.</td>
+                </tr>
+                <tr>
+                    <td><code>LEN</code></td>
+                    <td>Menhitung total panjang karakter dalam sel (termasuk spasi).</td>
+                </tr>
+                <tr>
+                    <td rowspan="4"><strong>Logika</strong></td>
+                    <td><code>IF</code></td>
+                    <td>Mengecek kondisi logika; menghasilkan nilai jika benar, dan nilai lain jika salah.</td>
+                </tr>
+                <tr>
+                    <td><code>AND</code></td>
+                    <td>Menghasilkan TRUE jika semua kondisi yang diuji bernilai benar.</td>
+                </tr>
+                <tr>
+                    <td><code>OR</code></td>
+                    <td>Menghasilkan TRUE jika salah satu saja kondisi bernilai benar.</td>
+                </tr>
+                <tr>
+                    <td><code>NOT</code></td>
+                    <td>Membalikkan nilai logika (TRUE jadi FALSE, dan sebaliknya).</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="highlight-box">
+            <strong>Tips Ujian Spreadsheet:</strong> Penulisan rumus wajib diawali dengan tanda sama dengan (<code>=</code>). Jangan lupa perhatikan tanda pemisah argumen di komputer sekolah besok, apakah menggunakan koma (<code>,</code>) atau titik koma (<code>;</code>).
+        </div>
+    </div>
+
+    <footer>
+        Link Materi Resmi: <a href="https://bit.ly/INFORSMTII" target="_blank">bit.ly/INFORSMTII</a> [cite: 5]<br><br>
+        Semangat Belajarnya! Semoga Sukses dan Mendapatkan Nilai Terbaik pada Ujian Besok! &#10024;
+    </footer>
+
+</div>
+
+</body>
+</html>
